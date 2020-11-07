@@ -1,0 +1,306 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+#header{
+    overflow: hidden;
+}
+#logo{
+    float: left;
+}
+#logo h1{
+    color: rgba(255, 0, 255);
+    margin-left: 50px;
+}
+#nav{
+    padding-top: 10px;
+    float: right;
+}
+#nav nav{
+    float: left;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+#nav button{
+    background-color: rgba(255, 0, 255);
+    border-radius: 15px;
+    padding: 10px 25px 10px 25px;
+    margin: 5px 10px 5px 10px;
+    border: 1px solid  rgba(255, 0, 255);
+    color: white;
+}
+#nav nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+#main {
+    text-align: center;
+    z-index: 0;
+    padding: 150px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image:
+    linear-gradient( rgba(255, 0, 255, 0.3), rgba(255, 0, 255, 0.3)),
+    url('working.jpg');
+    color: white;
+}
+#width{
+    width: 100%;
+    opacity: 100%;
+    z-index: 10;
+    
+}
+#caption{
+  z-index: 100;
+ 
+}
+#caption button{
+    border-radius: 20px;
+    padding: 15px 45px 15px 45px;
+    border: 1px solid  white;
+    color: rgba(255, 0, 255);
+    font-size: medium;
+}
+#about{
+    overflow: hidden;
+    margin-top: 40px;
+}
+#about-left {
+    float: left;
+    width: 50%;
+    margin-left: 8%;
+}
+#about-left div{
+    color: rgba(255, 0, 255);
+    font-size: 150%;
+    
+
+}
+#about-left button{
+    background-color: rgba(255, 0, 255);
+    border-radius: 15px;
+    padding: 10px 25px 10px 25px;
+    border: 1px solid  rgba(255, 0, 255);
+    color: white;
+    font-size: medium;
+}
+#about-right{
+    float: left;
+    width:30%;
+    margin: 50px 30px 0px 35px;
+    position: relative;
+}
+#about-right img{
+    border-radius: 25px 120px 120px 25px;
+    z-index: 0;
+}
+.image-border{
+    border: 3px solid rgba(255, 0, 255);
+    border-radius: 25px 120px 120px 25px;
+    padding: 150px 310px 150px 150px;
+    z-index: 10;
+    opacity: 100%;
+    position: absolute;
+    top: -30px;
+    right: -120px;
+}
+#features{
+    text-align: center;
+    margin-top: 40px;
+    overflow: hidden;
+}
+#features .color-change{
+    color: rgba(255, 0, 255);
+    font-size: 150%;
+    margin-bottom: 60px;
+}
+.features-content-left{
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-left: 80px;
+}
+.features-content-left .fa{
+    font-size: 50px;
+    color: rgba(255, 0, 255);
+}
+.image-border-feature{
+    border: 3px solid rgba(255, 0, 255);
+    border-radius: 25px 120px 120px 25px;
+    padding: 150px 250px 130px 150px;
+    z-index: 0;
+    position: absolute;
+    
+}
+#feature-bottom-left{
+    font-size: 150%;
+    margin: 80px;
+    margin-top: 50px;
+}
+#feature-bottom-left img{
+    border-radius: 25px 120px 120px 25px;
+    z-index: 10;
+    position: relative;
+    opacity: 100%;
+    float: left;
+    width: 35%;
+    top: -20px;
+    right: -40px;
+
+}
+#feature-bottom-right{
+    float: right;
+    width: 40%;
+    margin-right: 70px;
+}
+#feature-bottom{
+    overflow: hidden;
+    margin-top: 30px;
+}
+#feature-bottom-right h3{
+    font-size: 150%;
+    color: rgba(255, 0, 255);
+}
+#dashboard{
+    text-align: center;
+    margin-top: 50px;
+}
+#dashboard img{
+    width: 100%;
+}
+#dashboard div{
+    color: rgba(255, 0, 255);
+    font-size: 150%;
+}
+#dashboard p{
+    text-align: center;
+    width: 60%;
+    padding-left: 300px;
+}
+#reviews{
+    text-align: center;
+    margin-top: 70px;
+    overflow: hidden;
+}
+#reviews .color-change{
+    font-size: 150%;
+}
+#reviews div span{
+    color: rgba(255, 0, 255);
+}
+.reviews-left{
+    float: left;
+    width: 25%;
+    margin-left: 80px;
+    box-shadow: 0px -1px 10px 3px rgba(255,0,0,0.3);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.reviews-left img{
+    border-radius: 50%;
+    width: 150px;
+}
+#signup{
+    background-color: rgba(255, 0, 255);
+    padding: 50px;
+    overflow: hidden;
+}
+#signup-left{
+    float: left;
+    font-size: xx-large;
+    font-weight: 900;
+    color: white;
+}
+#signup-right{
+    float: right;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 25px 10px 25px;
+    border: 1px solid  white;
+    color: rgba(255, 0, 255);
+    font-size: medium;
+}
+#signup-form{
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image:
+    linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('working.jpg');
+    color: white;
+    overflow: hidden;
+
+}
+#signup-form-left{
+    float: left;
+    width: 30%;
+    z-index: 100;
+    opacity: 100%;
+    margin: 20px 100px;
+}
+#signup-form-left div{
+    font-size: xx-large;
+}
+#signup-form-right{
+    float: right;
+    width: 30%;
+    z-index: 100;
+    opacity: 100%;
+    margin: 50px 0px;
+   
+}
+#name,#email{
+    border-radius: 20px;
+    width: 350px;
+    border: 1px solid white;
+    padding: 10px 0px;
+    font-size: xx-large;
+}
+#message{
+    border-radius: 20px;
+    width: 350px;
+    border: 1px solid white;
+    padding: 50px 0px;
+    font-size: normal;
+}
+#submit input{
+    padding: 15px 137px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 0, 255);
+    background-color: rgba(255, 0, 255);
+    color: white;
+    font-size: large;
+}
+.red{
+    color: red;
+}
+#footer{
+    overflow: hidden;
+    margin: 100px;
+    text-align: center;
+}
+.footer-content{
+    float: left;
+    width: 30%;
+}
+.footer-content .fa{
+    font-size: 50px;
+    padding: 10px;
+}
+.footer-content nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+#logo-footer{
+    font-size: xx-large;
+    color: rgba(255, 0, 255);
+}
+.footer-content p span{
+    color: rgba(255, 0, 255);
+    font-size: 150%;
+}
